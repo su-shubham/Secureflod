@@ -106,9 +106,8 @@ export default async function ActivitiesPage() {
                                                         <p className="text-sm text-muted-foreground">
                                                             {/* {formatDate(activity.createdAt?.toString())} */}
                                                         </p>
-                                                        {fileName.malware ? <p className="px-12 text-red-500">Malware</p>: <p className="px-12 text-green-500">Not a Malware!</p>}
+                                                        {fileName.malware ? <p className="px-12 text-red-500">Malware</p>: <p className="px-12 text-red-500">Malware!</p>}
                         {fileName.malwareFamily && <p className="px-12 text-red-500">{fileName.malwareFamily}</p>}
-
                                                     </div>
                                                 </div>
                                             </div>

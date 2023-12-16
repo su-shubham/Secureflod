@@ -24,13 +24,14 @@ export default function ImageOverview() {
                     <ImageDescription subtext="Our built-in scanning feature enhances online security, allowing users to assess the safety of each link for a safer browsing experience">
                     Streamlined Link Management and Security Scanner
                     </ImageDescription>
-                    <ImageDescription subtext="Get started with the app">
-                        Discover what you can do
+                    <ImageDescription subtext="Our integrated scanning feature ensures enhanced online security by enabling users to evaluate the safety of each link for a more secure browsing experience.">
+                    Link Management and Security Scanner Analysis
                     </ImageDescription>
+
                     <ImageFrame>
                         <Image
                             className="rounded-lg"
-                            src="/images/dashboard.jpg"
+                            src="/images/image-2.png"
                             width="1280"
                             height="720"
                             alt="Showcase image"

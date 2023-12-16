@@ -98,7 +98,7 @@ export default async function ActivitiesPage() {
                                         {fileNames.map((fileName) => (
                                             <div key={fileName.fileId} className="flex items-center gap-4 p-5">
                                                 <div className="h-4 w-4 rounded-full shadow shadow-black dark:shadow-white" data-testid="color-code"></div>
-                                                <div className="your-custom-class">
+                                                <div className="flex flex-row">
                                                     <Link href={`/dashboard/scan/${fileName.fileId}`} className="font-semibold hover:underline">
                                                         {fileName.filename}
                                                     </Link>
@@ -106,6 +106,9 @@ export default async function ActivitiesPage() {
                                                         <p className="text-sm text-muted-foreground">
                                                             {/* {formatDate(activity.createdAt?.toString())} */}
                                                         </p>
+                                                        {fileName.malware ? <p className="px-12 text-red-500">Malware</p>: <p className="px-12 text-green-500">Not a Malware!</p>}
+                        {fileName.malwareFamily && <p className="px-12 text-red-500">{fileName.malwareFamily}</p>}
+
                                                     </div>
                                                 </div>
                                             </div>

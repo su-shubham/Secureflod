@@ -20,31 +20,28 @@ const DashBoardCards = ({ data, searchParams }: DashboardCardsProps) => {
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             <Card>
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                    <CardTitle className="text-sm font-medium">Score</CardTitle>
-                    <Icons.fire className="h-4 w-4 text-muted-foreground" />
+                    <CardTitle className="text-sm font-medium">Total malicious</CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <div className="text-3xl font-bold"><span className='text-green-500'>90%</span></div>
+                    <div className="text-3xl font-bold"><span className='text-red-500'>90</span></div>
                     {/* <p className="text-xs text-muted-foreground">All time</p> */}
                 </CardContent>
             </Card>
             <Card>
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                    <CardTitle className="text-sm font-medium">Status</CardTitle>
-                    <Icons.fire className="h-4 w-4 text-muted-foreground" />
+                    <CardTitle className="text-sm font-medium">Total families</CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <div className="text-2xl font-bold"><span className='text-slate-600'>200</span></div>
+                    <div className="text-2xl font-bold"><span className='text-slate-600'>5</span></div>
                     {/* <p className="text-xs text-muted-foreground">All time</p> */}
                 </CardContent>
             </Card>
             <Card>
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                    <CardTitle className="text-sm font-medium">Type</CardTitle>
-                    <Icons.history className="h-4 w-4 text-muted-foreground" />
+                    <CardTitle className="text-sm font-medium">Most upload type</CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <div className="text-2xl font-bold text-slate-600">url</div>
+                    <div className="text-2xl font-bold text-slate-600">exe</div>
                     <p className="text-xs text-muted-foreground">
                         {/* {displayDateRange(searchParams)} */}
                     </p>
@@ -55,7 +52,6 @@ const DashBoardCards = ({ data, searchParams }: DashboardCardsProps) => {
                     <CardTitle className="text-sm font-medium">
                         Most Logged Activity
                     </CardTitle>
-                    <Icons.activity className="h-4 w-4 text-muted-foreground" />
                 </CardHeader>
                 <CardContent>
                     <div className="overflow-hidden overflow-ellipsis whitespace-nowrap text-2xl font-bold">

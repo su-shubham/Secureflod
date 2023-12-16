@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
   try {
     const fileData = await req.json();
     const file_Id = fileData.fileId;
-    const file_Name = fileData.fileName;
+    const file_Name = fileData.fileName ;
     const { userId } = auth();
     const store_id = await db
       .insert(storefile)

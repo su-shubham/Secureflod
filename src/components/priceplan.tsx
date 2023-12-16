@@ -13,7 +13,7 @@ const PricePlan = () => {
         },
         {
             title: "Pro",
-            monthlyPrice: 20,
+            monthlyPrice: 999,
             description: "Pro Features to take your business to the next level",
             features: ["Free Plan Included", "Dynamic Analysis of your links", "Dynamic Analysis of your links"],
             actionLabel: "Pro Plan",
@@ -31,7 +31,7 @@ const PricePlan = () => {
     <div className='container py-12 lg:py-20'>
             <div className="text-center">
     <h2 className="text-3xl font-bold">Pricing Plans</h2>
-    <p className="text-xl pt-1">Choose the plan that's right for you</p>
+    <p className="text-xl pt-1">Choose the plan thats right for you</p>
     <br />
   </div>
   <div className=" mx-auto max-w-6xl px-[10rem] lg:px-8 grid grid-cols-1 gap-4 lg:grid-cols-3 ">

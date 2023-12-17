@@ -8,14 +8,14 @@ const PricePlan = () => {
           price: 0,
           customPrice: "Free",
           description: "Basic Features you need to get started",
-          features: ["Static Analysis of your links", "Static Analysis of your file", ],
+          features: ["Static Analysis of your files and links", "AI Bot Analyzer", ],
           actionLabel: "Get Started",
         },
         {
             title: "Pro",
             monthlyPrice: 20,
             description: "Pro Features to take your business to the next level",
-            features: ["Free Plan Included", "Dynamic Analysis of your links", "Dynamic Analysis of your links"],
+            features: ["Free Plan Included", "Dynamic Analysis of your files and links", "Sandbox Support"],
             actionLabel: "Pro Plan",
           },
        
@@ -23,7 +23,7 @@ const PricePlan = () => {
           title: "Enterprise",
           customPrice: "Custom",
           description: "Custom Features for your business",
-          features: ["Pro Plan Included", "API Access for your business"],
+          features: ["Pro Plan Included","Orgnaization monitoring", "API Access for your business", "24x7 Customer Support"],
           actionLabel: "Contact Sales",
         },
       ]

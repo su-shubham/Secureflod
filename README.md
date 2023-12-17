@@ -42,14 +42,14 @@ cd SecureFlod
 
 # Install dependencies
 npm install
-
+```
 
 For detailed installation instructions, please refer to the Installation Guide.
 
 Usage
 To use SecureFlod in your project, follow these steps:
 
-'''
+```
 // Import SecureFlod module
 const secureFlod = require('secureflod');
 
@@ -59,7 +59,7 @@ secureFlod.init();
 // Use SecureFlod for malware detection
 const result = secureFlod.detectMalware(file);
 console.log(result);
-'''
+```
 For more examples and detailed usage instructions, please refer to the Usage Guide.
 
 Technology Stack
@@ -73,8 +73,6 @@ We welcome contributions from the community! If you're interested in contributin
 License
 This project is licensed under the MIT License.
 
-'''
-
+```
 Feel free to modify or add more emojis to suit the tone and style you're aiming for!
-
-'''
+```

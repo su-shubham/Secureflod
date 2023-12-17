@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Metadata } from "next"
 import { redirect } from "next/navigation"
 import { Shell } from "@/components/layout/shell"
@@ -94,26 +95,25 @@ export default async function ActivitiesPage() {
                         </div>
                             )} */}
                         {fileNames?.length ? (
-                                    <div className="divide-y divide-border rounded-md border p-2">
-                                        {fileNames.map((fileName) => (
-                                            <div key={fileName.fileId} className="flex items-center gap-4 p-5">
-                                                <div className="h-4 w-4 rounded-full shadow shadow-black dark:shadow-white" data-testid="color-code"></div>
-                                                <div className="flex flex-row">
-                                                    <Link href={`/dashboard/scan/${fileName.fileId}`} className="font-semibold hover:underline">
-                                                        {fileName.filename}
-                                                    </Link>
-                                                    <div>
-                                                        <p className="text-sm text-muted-foreground">
-                                                            {/* {formatDate(activity.createdAt?.toString())} */}
-                                                        </p>
-                                                        {fileName.malware ? <p className="px-12 text-red-500">Malware</p>: <p className="px-12 text-green-500">Not a Malware!</p>}
-                        {fileName.malwareFamily && <p className="px-12 text-red-500">{fileName.malwareFamily}</p>}
-
-                                                    </div>
-                                                </div>
+                            <div className="divide-y divide-border rounded-md border p-2">
+                                {fileNames.map((fileName) => (
+                                    <div key={fileName.fileId} className="flex items-center gap-4 p-5">
+                                        <div className="h-4 w-4 rounded-full shadow shadow-black dark:shadow-white" data-testid="color-code"></div>
+                                        <div className="flex flex-row">
+                                            <Link href={`/dashboard/scan/${fileName.fileId}`} className="font-semibold hover:underline">
+                                                {fileName.filename}
+                                            </Link>
+                                            <div>
+                                                <p className="text-sm text-muted-foreground">
+                                                    {/* {formatDate(activity.createdAt?.toString())} */}
+                                                </p>
+                                                {fileName.malware ? <p className="px-12 text-red-500">Malware</p> : <p className="px-12 text-red-500">Malware!</p>}
+                                                {fileName.malwareFamily && <p className="px-12 text-red-500">{fileName.malwareFamily}</p>}
                                             </div>
-                                        ))}
+                                        </div>
                                     </div>
+                                ))}
+                            </div>
                         ) : (
                             <p>No file names found.</p>
                         )}

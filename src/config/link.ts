@@ -26,6 +26,10 @@ export const navLinks: Navigation = {
             href: "/#features",
         },
         {
+            title: "Pricing",
+            href: "/#pricing",
+        },
+        {
             title: "Dashboard",
             href: "/dashboard",
         },

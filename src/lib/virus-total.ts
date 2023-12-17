@@ -1,3 +1,4 @@
+// @ts-nocheck
 export async function scanUrl(url: string): Promise<any> {
 
     const apiUrl = `https://www.virustotal.com/api/v3/urls?url=${encodeURIComponent(url)}`;

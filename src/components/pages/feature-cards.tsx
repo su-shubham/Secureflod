@@ -33,7 +33,7 @@ function Cards() {
                 <BsLayoutTextWindowReverse className="text-4xl" />
                 <CardTitle>Intelligent Threat Detection</CardTitle>
                 <CardDescription>
-                Employs machine learning algorithms to classify and categorize analysis reports automatically, enhancing the system's ability to recognize and respond to emerging malware threats.
+                Employs machine learning algorithms to classify and categorize analysis reports automatically, enhancing the system&apos;s ability to recognize and respond to emerging malware threats.
                 </CardDescription>
             </Card>
         </>

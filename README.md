@@ -77,9 +77,9 @@ This project is licensed under the MIT License.
 Feel free to modify or add more emojis to suit the tone and style you're aiming for!
 ```
 
-![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/bd724990-1acc-49f7-9bcc-90ae7648b0b9)
-![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/c9676e48-e34e-4136-852f-6d286cd56cde)
-![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/c2ce34c3-abc0-46d3-8166-52280b83bc0a)
+![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/bd724990-1acc-49f7-9bcc-90ae7648b0b9 | width=100)
+![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/c9676e48-e34e-4136-852f-6d286cd56cde | width=100)
+![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/c2ce34c3-abc0-46d3-8166-52280b83bc0a | width=100)
 
 
 

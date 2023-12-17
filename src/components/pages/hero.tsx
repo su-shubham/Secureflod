@@ -27,7 +27,7 @@ export default function HeroHeader() {
                     <ImageFrame>
                         <Image
                             className="rounded-lg"
-                            src="/images/hero.png"
+                            src="/images/hero-img.png"
                             width={1364}
                             height={866}
                             quality={100}

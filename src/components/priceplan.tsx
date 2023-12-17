@@ -13,7 +13,7 @@ const PricePlan = () => {
         },
         {
             title: "Pro",
-            monthlyPrice: 20,
+            monthlyPrice: 999,
             description: "Pro Features to take your business to the next level",
             features: ["Free Plan Included", "Dynamic Analysis of your files and links", "Sandbox Support"],
             actionLabel: "Pro Plan",

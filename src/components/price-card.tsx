@@ -15,7 +15,7 @@ type PricingCardProps = {
   
 const PricingCard = ({ title, monthlyPrice,customPrice, description, features, actionLabel}: PricingCardProps) => (
     <Card
-      className={`w-72 flex flex-col justify-between py-1 `}>
+      className={`w-72 flex flex-col justify-between py-1 `} id='pricing'>
       <div>
         <CardHeader className="pb-8 pt-4">
             <div className="flex justify-between">
@@ -27,7 +27,7 @@ const PricingCard = ({ title, monthlyPrice,customPrice, description, features, a
             </div>
 
           <div className="flex gap-0.5">
-            <h3 className="text-3xl font-bold">{ !customPrice && monthlyPrice ? "$" + monthlyPrice : customPrice}</h3>
+            <h3 className="text-3xl font-bold">{ !customPrice && monthlyPrice ? "₹" + monthlyPrice : customPrice}</h3>
             <span className="flex flex-col justify-end text-sm mb-1">{monthlyPrice ? "/month" : null}</span>
           </div>
 

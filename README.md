@@ -44,28 +44,15 @@ cd SecureFlod
 npm install
 ```
 
-For detailed installation instructions, please refer to the Installation Guide.
-
-Usage
-To use SecureFlod in your project, follow these steps:
-
-```
-// Import SecureFlod module
-const secureFlod = require('secureflod');
-
-// Initialize SecureFlod
-secureFlod.init();
-
-// Use SecureFlod for malware detection
-const result = secureFlod.detectMalware(file);
-console.log(result);
-```
-For more examples and detailed usage instructions, please refer to the Usage Guide.
 
 Technology Stack
-Node.js
+Next.js
+typescript
 Python
-TensorFlow for machine learning
+Fastapi
+Gradio
+Langchain
+
 [Additional technologies used]
 Contributing
 We welcome contributions from the community! If you're interested in contributing to SecureFlod, please follow our Contributing Guidelines.

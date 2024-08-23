@@ -1,16 +1,16 @@
 # SecureFlod 🔐
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 ## Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Technology Stack](#technology-stack)
+- [Contributors](#contributors)
 
 ## Overview
 
-SecureFlod is an innovative cybersecurity solution designed to detect and identify malware in files through a multi-faceted approach. By utilizing signature-based checks, static analysis, dynamic analysis, and machine learning models, SecureFlod provides comprehensive protection against a wide range of cyber threats. The system also features an AI-powered chatbot for real-time communication between malware researchers and data.
+- SecureFlod is an innovative cybersecurity solution designed to detect and identify malware in files through a multi-faceted approach. By utilizing *signature-based checks, static analysis, dynamic analysis, and machine learning models*.
+- SecureFlod provides comprehensive *protection against a wide range of cyber threats*. 
+- The system also features an *AI-powered chatbot* for real-time communication between malware researchers and data.
 
 ## Installation
 
@@ -18,13 +18,13 @@ To install SecureFlod, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/SecureFlod.git
+> git clone https://github.com/su-shubham/SecureFlod.git
 
 # Navigate to the project directory
 cd SecureFlod
 
 # Install dependencies
-npm install
+npm install 
 ```
 
 
@@ -36,27 +36,21 @@ Fastapi
 Gradio
 Langchain
 
-[Additional technologies used]
-Contributing
-We welcome contributions from the community! If you're interested in contributing to SecureFlod, please follow our Contributing Guidelines.
-
-License
-This project is licensed under the MIT License.
-
-```
-
-```
-
-![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/bd724990-1acc-49f7-9bcc-90ae7648b0b9 | width=100)
-![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/c9676e48-e34e-4136-852f-6d286cd56cde | width=100)
-![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/c2ce34c3-abc0-46d3-8166-52280b83bc0a | width=100)
 
 
----
+<table>
+  <tr>
+    <td><img src="https://github.com/i-sanjay-cs/Secureflod/assets/70086773/bd724990-1acc-49f7-9bcc-90ae7648b0b9" width="400" /></td>
+    <td><img src="https://github.com/i-sanjay-cs/Secureflod/assets/70086773/c9676e48-e34e-4136-852f-6d286cd56cde" width="400" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/i-sanjay-cs/Secureflod/assets/70086773/c2ce34c3-abc0-46d3-8166-52280b83bc0a" width="400" /></td>
+    <td><img src="https://github.com/su-shubham/Secureflod/blob/master/public/images/imag.png?raw=true" width="400" /></td>
+  </tr>
+</table>
 
 
 
-**Note:** SecureFlod is licensed under the [MIT License](LICENSE).
 
 
 
@@ -76,15 +70,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nullblocks"><img src="https://avatars.githubusercontent.com/u/110848103?v=4?s=50" width="50px;" alt="nullblocks"/><br /><sub><b>nullblocks</b></sub></a><br /><a href="#security-nullblocks" title="Security">🛡️</a> <a href="#ideas-nullblocks" title="Ideas, Planning, & Feedback">🤔</a> <a href="#business-nullblocks" title="Business development">💼</a></td>
     </tr>
   </tbody>
-  <tfoot>
-    <tr>
-      <td align="center" size="13px" colspan="7">
-        <img src="https://raw.githubusercontent.com/all-contributors/all-contributors-cli/1b8533af435da9854653492b1327a23a4dbd0a10/assets/logo-small.svg">
-          <a href="https://all-contributors.js.org/docs/en/bot/usage">Add your contributions</a>
-        </img>
-      </td>
-    </tr>
-  </tfoot>
 </table>
 
 <!-- markdownlint-restore -->
@@ -93,3 +78,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+**Note:** SecureFlod is licensed under the [MIT License](LICENSE).

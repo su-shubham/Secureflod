@@ -1,33 +1,16 @@
-# SecureFlod 🌐🛡️
+# SecureFlod 🔐
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 - [Overview](#overview)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technology Stack](#technology-stack)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
 SecureFlod is an innovative cybersecurity solution designed to detect and identify malware in files through a multi-faceted approach. By utilizing signature-based checks, static analysis, dynamic analysis, and machine learning models, SecureFlod provides comprehensive protection against a wide range of cyber threats. The system also features an AI-powered chatbot for real-time communication between malware researchers and data.
-
-## Features
-
-- **Comprehensive Malware Detection:**
-  - Incorporates signature-based checks, static analysis, dynamic analysis, and machine learning models.
-
-- **Real-Time Communication:**
-  - AI-powered chatbot facilitates instant communication between malware researchers and data. 🤖💬
-
-- **Industry-Specific Tailoring:**
-  - Customizes cybersecurity solutions to meet the unique needs of mid-sized enterprises. 🎩👔
-
-- **Strategic Geographic Focus:**
-  - Targets North American and European markets for optimal impact and alignment with high-demand cybersecurity landscapes. 🌍🎯
 
 ## Installation
 
@@ -61,7 +44,7 @@ License
 This project is licensed under the MIT License.
 
 ```
-Feel free to modify or add more emojis to suit the tone and style you're aiming for!
+
 ```
 
 ![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/bd724990-1acc-49f7-9bcc-90ae7648b0b9 | width=100)
@@ -69,25 +52,41 @@ Feel free to modify or add more emojis to suit the tone and style you're aiming 
 ![image](https://github.com/i-sanjay-cs/Secureflod/assets/70086773/c2ce34c3-abc0-46d3-8166-52280b83bc0a | width=100)
 
 
-
-
-# Thank You for Choosing SecureFlod! 🌟✨
-
-🚀 We extend our heartfelt gratitude for selecting SecureFlod! Your support and enthusiasm propel our mission to safeguard the digital realm. 🌐💻
-
-💖 **Your Contribution Matters:** Whether it's feedback, bug reports, or code contributions, every bit counts and makes SecureFlod better! 🙏🌈
-
-👏 **Team Applause:** A massive round of applause to our amazing community and contributors. Together, we're shaping the future of cybersecurity! 👏🚀
-
-🌟 **Continued Innovation:** SecureFlod is a journey, and we're thrilled to have you on board. Brace yourself for more innovation, features, and secure possibilities! 🎩💼
-
-🌈 **Spread the Word:** Help us grow by sharing your experience with SecureFlod. Let's create a vibrant and secure community together! 🌍🤝
-
-🙌 **Thank you for being part of the SecureFlod adventure!** 🙌✨
-
-
 ---
+
+
 
 **Note:** SecureFlod is licensed under the [MIT License](LICENSE).
 
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/su-shubham"><img src="https://avatars.githubusercontent.com/u/75021117?v=4?s=50" width="50px;" alt="Shubham"/><br /><sub><b>Shubham</b></sub></a><br /><a href="https://github.com/su-shubham/Secureflod/commits?author=su-shubham" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td align="center" size="13px" colspan="7">
+        <img src="https://raw.githubusercontent.com/all-contributors/all-contributors-cli/1b8533af435da9854653492b1327a23a4dbd0a10/assets/logo-small.svg">
+          <a href="https://all-contributors.js.org/docs/en/bot/usage">Add your contributions</a>
+        </img>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

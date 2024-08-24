@@ -18,7 +18,7 @@ To install SecureFlod, follow these steps:
 
 ```bash
 # Clone the repository
-> git clone https://github.com/su-shubham/SecureFlod.git
+> git clone https://github.com/su-shubham/Secureflod.git
 
 # Navigate to the project directory
 cd SecureFlod
@@ -28,13 +28,14 @@ npm install
 ```
 
 
-Technology Stack
-Next.js
-typescript
-Python
-Fastapi
-Gradio
-Langchain
+## Technology Stack
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Gradio](https://img.shields.io/badge/huggingface-yellow?style=for-the-badge&logo=huggingface&logoColor=yellow&logoSize=80&labelColor=white&color=yellow)
+![LangChain](https://img.shields.io/badge/langchain-grey?style=for-the-badge&logo=langchain&logoColor=white&logoSize=60)
+
 
 
 
@@ -54,7 +55,7 @@ Langchain
 
 
 
-## Contributors ✨
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
